@@ -1,0 +1,81 @@
+<equipment_profile version="2.0" source="Nilss-MacBook-Pro.local" date="Sun Jul 5 2026" appl_version="7.8.0.66" time="10:30:06">
+    <device>
+        <identification>
+            <manufacturer>CAD</manufacturer>
+            <model>GLXIEM4</model>
+            <band>902-928</band>
+            <type>In Ear Monitor</type>
+        </identification>
+        <device_parameters>
+            <tuning_capability version="0.0.0.1" id="7d9341de-5547-4f2e-be2d-4a51d202fa2f">
+                <freq_list freq_units="KHz">
+                    <freq>903250</freq>
+                    <freq>903825</freq>
+                    <freq>904875</freq>
+                    <freq>905325</freq>
+                    <freq>905975</freq>
+                    <freq>906575</freq>
+                    <freq>907225</freq>
+                    <freq>908425</freq>
+                    <freq>909075</freq>
+                    <freq>910875</freq>
+                    <freq>911325</freq>
+                    <freq>916850</freq>
+                    <freq>925000</freq>
+                    <freq>925650</freq>
+                    <freq>926850</freq>
+                    <freq>927650</freq>
+                </freq_list>
+            </tuning_capability>
+            <tx_power units="mW">30</tx_power>
+            <channels>4</channels>
+        </device_parameters>
+        <compat_profiles units="kHz">
+            <compat_profile version="0.0.0.1" name="Robust" imd_source="1" id="852feb46-edd0-42ad-970c-2f61a9661df8" synthesizable="1">
+                <spacing freq_units="KHz">
+                    <ch_ch>1000</ch_ch>
+                    <imd_2t3o>500</imd_2t3o>
+                    <imd_2t5o>0</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>100</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-200000</filter_start>
+                    <filter_end>200000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+            <compat_profile version="0.0.0.1" name="Standard" imd_source="1" id="21022eec-0b55-41eb-be0c-3e391b8b2a46" synthesizable="1">
+                <spacing freq_units="KHz">
+                    <ch_ch>800</ch_ch>
+                    <imd_2t3o>400</imd_2t3o>
+                    <imd_2t5o>0</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>0</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-150000</filter_start>
+                    <filter_end>150000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+            <compat_profile version="0.0.0.1" name="More Frequencies" imd_source="1" id="56e1b97b-6c32-45bb-aac2-ede210641816" synthesizable="1">
+                <spacing freq_units="KHz">
+                    <ch_ch>600</ch_ch>
+                    <imd_2t3o>300</imd_2t3o>
+                    <imd_2t5o>0</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>0</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-100000</filter_start>
+                    <filter_end>100000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+        </compat_profiles>
+    </device>
+</equipment_profile>
